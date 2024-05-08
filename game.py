@@ -72,7 +72,7 @@ while run:
     for e in event.get():
         if e.type == QUIT:
             run = False
-    window.fill((255,255,20))
+    window.fill((149, 213, 193))
     ball.rect.x += speed_x
     ball.rect.y += speed_y
     
